@@ -251,7 +251,10 @@ if(oci_num_rows($check)==0)
                             </div>
                             <div class="row">
                                 <div class="col-xl-6"><label for="" class="input-label">Ana Motor Etiket Fotoğrafı </label></div>
-                                <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="ANAMOTOR_FOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                <div class="col-xl-6">
+                                    <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="ANAMOTOR_FOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                    <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="ANAMOTOR_FOTO"><i class="far fa-image"></i></a>
+                                </div>
                             </div>
                         </div>
                         <!-- ## BİTİŞ ## ANA MOTORLU MU GIDECEK ? -->
@@ -269,7 +272,10 @@ if(oci_num_rows($check)==0)
                         <div class="lazercihaz-alanlari hide">
                             <div class="row">
                                 <div class="col-xl-6"><label for="" class="input-label">Kullanılan Lazer Cihaz </label></div>
-                                <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="CIHAZ_FOTO"><i class="fas fa-camera"></i> Fotoğraf Çek </a></div>
+                                <div class="col-xl-6">
+                                    <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="CIHAZ_FOTO"><i class="fas fa-camera"></i> Fotoğraf Çek </a>
+                                    <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="CIHAZ_FOTO"><i class="far fa-image"></i></a>
+                                </div>
                             </div>
                         </div>
                         <!-- ## BİTİŞ ## LAZER CİHAZ KULLANILDI MI ? -->
@@ -298,7 +304,10 @@ if(oci_num_rows($check)==0)
                         <div class="reduktorvarmi-alanlari hide">
                             <div class="row">
                                 <div class="col-xl-6"><label for="" class="input-label">Redüktör Etiket Fotoğrafı </label></div>
-                                <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="REDUKTOR_FOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                <div class="col-xl-6">
+                                    <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="REDUKTOR_FOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                    <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="REDUKTOR_FOTO"><i class="far fa-image"></i></a>
+                                </div>
                             </div>
                         </div>
                         <!-- ## BİTİŞ ## REDUKTOR ALANLARI -->
@@ -345,7 +354,10 @@ if(oci_num_rows($check)==0)
                         </div>
                         <div class="row">
                             <div class="col-xl-6"><label for="" class="input-label">Katı Yatak Rulmanlarına Gres Basılması </label></div>
-                            <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KATIGRESBAS"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                            <div class="col-xl-6">
+                                <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KATIGRESBAS"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="KATIGRESBAS"><i class="far fa-image"></i></a>
+                            </div>
                         </div>
                         <!-- ## BAŞLANGIÇ ##  KATI ANA RULMAN YATAK KAPAĞI BASKI KONTROL  -->
                         <div class="row">
@@ -559,7 +571,10 @@ if(oci_num_rows($check)==0)
                         </div>
                         <div class="row">
                             <div class="col-xl-6"><label for="" class="input-label">Sıvı Yatak Rulmanlarına Gres Basılması </label></div>
-                            <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="SIVIGRESBAS"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                            <div class="col-xl-6">
+                                <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="SIVIGRESBAS"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="SIVIGRESBAS"><i class="far fa-image"></i></a>
+                            </div>
                         </div>
                         <!-- ## BAŞLANGIÇ ##  SIVI ANA RULMAN YATAK KAPAĞI BASKI KONTROL -->
                         <div class="row">
@@ -665,7 +680,10 @@ if(oci_num_rows($check)==0)
                             </div>
                             <div class="row">
                                 <div class="col-xl-6"><label for="" class="input-label">Arka Motor Etiket Fotoğrafı </label></div>
-                                <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="ARKAMOTORFOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                <div class="col-xl-6">
+                                    <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="ARKAMOTORFOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                    <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="ARKAMOTORFOTO"><i class="far fa-image"></i></a>
+                                </div>
                             </div>
                         </div>
                         <!--  ## BİTİŞ ##  ARKA MOTORLU MU GİDECEK ? -->
@@ -1107,19 +1125,31 @@ if(oci_num_rows($check)==0)
                         </div>
                         <div class="row">
                             <div class="col-xl-6"><label for="" class="input-label">Helezon Üzerine Yazılan Bilgiler </label></div>
-                            <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="HELYAZBILGILERI"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                            <div class="col-xl-6">
+                                <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="HELYAZBILGILERI"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="HELYAZBILGILERI"><i class="far fa-image"></i></a>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6"><label for="" class="input-label">Helezon Resim Numarası Ve İş Emri Bilgileri </label></div>
-                            <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="HELRESISEMRINO_FOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                            <div class="col-xl-6">
+                                <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="HELRESISEMRINO_FOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="HELRESISEMRINO_FOTO"><i class="far fa-image"></i></a>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6"><label for="" class="input-label">Konik Başlangıç Ölçüsünü Ölç <span class="badge badge-pill badge-warning">Opsiyonel</span></label></div>
-                            <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KONIKBASLANGICOLCU"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                            <div class="col-xl-6">
+                            <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KONIKBASLANGICOLCU"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                            <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="KONIKBASLANGICOLCU"><i class="far fa-image"></i></a>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6"><label for="" class="input-label">Konik Bitiş Ölçüsünü Ölç <span class="badge badge-pill badge-warning">Opsiyonel</span></label></div>
-                            <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KONIKBITISOLCU"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                            <div class="col-xl-6">
+                                <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KONIKBITISOLCU"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="KONIKBITISOLCU"><i class="far fa-image"></i></a>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6"><label for="" class="input-label">Disk Mi Kepçe Mi Mesafesini Ölç </label></div>
@@ -1132,12 +1162,18 @@ if(oci_num_rows($check)==0)
                                 <label for="radio93">Yok</label>
                                 <div class="disk-mesafe-alanlari hide">
                                     <div class="row">
-                                        <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="DISKMESAFE"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                        <div class="col-xl-6">
+                                            <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="DISKMESAFE"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                            <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="DISKMESAFE"><i class="far fa-image"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="kepce-mesafe-alanlari hide">
                                     <div class="row">
-                                        <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KEPCEMESAFE"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                        <div class="col-xl-6">
+                                            <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KEPCEMESAFE"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                            <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="KEPCEMESAFE"><i class="far fa-image"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1153,12 +1189,18 @@ if(oci_num_rows($check)==0)
                                 <label for="radio96">Yok</label>
                                 <div class="disk-derinlik-alanlari hide">
                                     <div class="row">
-                                        <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="DISKDERINLIK"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                        <div class="col-xl-6">
+                                            <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="DISKDERINLIK"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                            <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="DISKDERINLIK"><i class="far fa-image"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="kepce-derinlik-alanlari hide">
                                     <div class="row">
-                                        <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KEPCEDERINLIK"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                        <div class="col-xl-6">
+                                            <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KEPCEDERINLIK"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                            <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="KEPCEDERINLIK"><i class="far fa-image"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1172,7 +1214,10 @@ if(oci_num_rows($check)==0)
                                 <label for="radio87">Yok</label>
                                 <div class="agir-faztapa-alanlari hide">
                                     <div class="row">
-                                        <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="AGIRFAZYERI"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                        <div class="col-xl-6">
+                                            <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="AGIRFAZYERI"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                            <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="AGIRFAZYERI"><i class="far fa-image"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1186,7 +1231,10 @@ if(oci_num_rows($check)==0)
                                 <label for="radio89">Yok</label>
                                 <div class="arkadisk-alanlari hide">
                                     <div class="row">
-                                        <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="ARKADISKCAPI"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                        <div class="col-xl-6">
+                                            <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="ARKADISKCAPI"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                            <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="ARKADISKCAPI"><i class="far fa-image"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1200,14 +1248,20 @@ if(oci_num_rows($check)==0)
                                 <label for="radio91">Yok</label>
                                 <div class="bekborusucapi-alanlari hide">
                                     <div class="row">
-                                        <div class="col-xl-6"><a class="btn btn-primary worker" href="#" style="margin-bottom: 5px;" data-modal="class/capture.php" data-field="BEKBORUSUKANAL"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                        <div class="col-xl-6">
+                                            <a class="btn btn-primary worker" href="#" style="margin-bottom: 5px;" data-modal="class/capture.php" data-field="BEKBORUSUKANAL"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                            <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="BEKBORUSUKANAL"><i class="far fa-image"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6"><label for="" class="input-label">Helezonu Tam Boydan Görünecek Şekilde Fotoğraf Çek </label></div>
-                            <div class="col-xl-6"><a class="btn btn-primary worker " href="#" data-modal="class/capture.php" data-field="TAMBOYHELEZONFOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                            <div class="col-xl-6">
+                                <a class="btn btn-primary worker " href="#" data-modal="class/capture.php" data-field="TAMBOYHELEZONFOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="TAMBOYHELEZONFOTO"><i class="far fa-image"></i></a>
+                            </div>
                             
                         </div>
                         <div class="row">
@@ -1219,18 +1273,27 @@ if(oci_num_rows($check)==0)
                                 <label for="radio95">Yok</label>
                                 <div class="beslemeodasi-dagitma-alanlari hide">
                                     <div class="row">
-                                        <div class="col-xl-6"><a class="btn btn-primary worker" href="#" style="margin-bottom: 5px;" data-modal="class/capture.php" data-field="BESLEMEODASIDAGITMA"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                                        <div class="col-xl-6">
+                                            <a class="btn btn-primary worker" href="#" style="margin-bottom: 5px;" data-modal="class/capture.php" data-field="BESLEMEODASIDAGITMA"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                            <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="BESLEMEODASIDAGITMA"><i class="far fa-image"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6"><label for="" class="input-label">Sıvı Rulman Fotoğrafı (Gresli)</label></div>
-                            <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="SIVIRULMANFOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                            <div class="col-xl-6">
+                                <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="SIVIRULMANFOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="SIVIRULMANFOTO"><i class="far fa-image"></i></a>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-xl-6"><label for="" class="input-label">Katı Rulman Fotoğrafı (Gresli)</label></div>
-                            <div class="col-xl-6"><a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KATIRULMANFOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a></div>
+                            <div class="col-xl-6">
+                                <a class="btn btn-primary worker" href="#" data-modal="class/capture.php" data-field="KATIRULMANFOTO"><i class="fas fa-camera"></i> Fotoğraf Çek</a>
+                                <a class="btn btn-primary worker ml-2" href="#" data-modal="class/image.php" data-field="KATIRULMANFOTO"><i class="far fa-image"></i></a>
+                            </div>
                         </div>
                         <br /><br /><br /><br />
                         <input class="btn btn-primary save" type="submit" value="Kaydet">
@@ -1277,6 +1340,19 @@ if(oci_num_rows($check)==0)
             echo '$(".denemedort-alanlari").hide("fast")';
         }
         */
+
+        /* RENKLENDİRME */
+
+
+        echo 'renklendir("#RULMANALINSALGIKONTROL");';
+        echo 'renklendir("#FATURASALGIKONTROL");';
+        echo 'renklendir("#ALINSALGIKONTROL");';
+        echo 'renklendir("#KAPLINFATURASALGIKONTROL");';
+        echo 'renklendir("#KAPLINALINSALGIKONTROL");';
+        echo 'renklendir("#SANZIMANSALGIKONTROL");';
+        
+
+
         ?>
     
     $(".color").keyup(function() {
@@ -1625,7 +1701,34 @@ if(oci_num_rows($check)==0)
     // ÖLÇÜM ALANLARI HESAPLATMA 
     
     
+    
+   // RENKLENDİRME ALANALARINI FONKSİYONLA ALMA
+    function renklendir(parameter1) {
+        var val = $(parameter1).val();
+        var min = $(parameter1).attr("data-min");
+        var max = $(parameter1).attr("data-max");
+        val = parseInt(val);
+        min = parseInt(min);
+        max = parseInt(max); 
 
+        if( val>=min && val<=max)
+        {
+            $(parameter1).css("background-color","#0F0");
+        }
+        else if( val>max || val<=min)
+        {
+            $(parameter1).css("background-color","#ff0000");
+        }
+        
+
+
+    }
+
+    // RENKLENDİRME ALANALARINI FONKSİYONLA ALMA
+    
+
+    
+    
 
   
 </script>
